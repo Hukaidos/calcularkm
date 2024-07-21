@@ -28,10 +28,10 @@ document.querySelector('#botao').addEventListener('click', function() {
             consumoPorLitro = 4.5;
             break;
         case 'truck':
-            consumoPorLitro = 3;
+            consumoPorLitro = 3.5;
             break;
         case 'carreta':
-            consumoPorLitro = 1.5;
+            consumoPorLitro = 2;
             break;
         default:
             alert('Veículo não reconhecido.');
