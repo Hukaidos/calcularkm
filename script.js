@@ -44,5 +44,5 @@ document.querySelector('#botao').addEventListener('click', function() {
 
     // Exibir o resultado
     const resultado = document.querySelector('#resultado');
-    resultado.innerHTML =  `- Seu veículo faz ${consumoPorLitro} km com 1 litro<br>- O gasto total de sua viagem será: R$ ${custoTotal.toFixed(2)}<br>- Você precisará de ${litrosNecessarios.toFixed(2)} litros de combustível.`;
+    resultado.innerHTML =  `- Seu veículo faz ${consumoPorLitro} km com 1 litro<br>- O gasto de sua viagem será: R$ ${custoTotal.toFixed(2)}<br>- Você precisará de ${litrosNecessarios.toFixed(2)} litros.`;
 });
